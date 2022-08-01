@@ -1,0 +1,33 @@
+body{
+    background: url(office_work_interior_walls_80538_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+background-attachment: fixed
+}
+
+
+.main{
+    z-index: -1;
+    background: azure;
+    height: 100vh;
+    box-shadow: 1px 1px 21px 2px rgba(0,0,0,0.43);
+-webkit-box-shadow: 1px 1px 21px 2px rgba(0,0,0,0.43);
+-moz-box-shadow: 1px 1px 21px 2px rgba(0,0,0,0.43);
+}
+
+
+.content{
+    height: 40vh;
+}
+
+.content2{
+z-index: -1;
+    height: 60vh;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+      width: 850px;
+    }
+  }
